@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-10-28T15:26:42Z" product-name="bm_metaseotest">
+        <header/>
+        <body>
+
+            <trans-unit id="product_page_type">
+                <source>Product</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,2 @@
+# cat=plugin.metaseo.extensibility/page/01; type=string; label= Doktypes list for backend page tree
+plugin.metaseo.extensibility.allowedDoktypes := addToList(91)

@@ -1,0 +1,31 @@
+{
+	"name": "bm/bm-metaseotest",
+	"type": "typo3-cms-extension",
+	"description": "Bergisch Media Products Extension",
+	"homepage": "http://typo3.org",
+	"license": [
+		"GPL-2.0"
+	],
+	"version": "1.1.0",
+	"require": {
+		"typo3/cms-core": ">=7.6,<8.0"
+	},
+	"replace": {
+		"bm_metaseotest": "self.version",
+		"typo3-ter/bm_metaseotest": "self.version"
+	},
+	"config": {
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin"
+	},
+	"extra": {
+		"installer-name": "bm-metaseotest",
+		"branch-alias": {
+			"dev-master": "master"
+		},
+		"typo3/cms": {
+			"cms-package-dir": "{$vendor-dir}/typo3/cms",
+			"web-dir": ".Build/Web"
+		}
+	}
+}
